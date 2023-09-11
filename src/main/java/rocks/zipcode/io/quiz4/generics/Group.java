@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * @author leon on 18/12/2018.
  */
-public class Group<_> {
+public class Group<_> implements Iterable<_>,GroupInterface<_>{
     List<_> newList;
     public Group() {
         newList=new ArrayList<>();
